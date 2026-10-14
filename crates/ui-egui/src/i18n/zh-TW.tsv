@@ -34,6 +34,7 @@
 	GitHub	GitHub
 	Website	網站
 	Classic apps	經典 App
+	Classic	經典
 	New apps	新 App
 	NEW	新
 	Install	安裝
@@ -244,6 +245,7 @@ deckcraft	Presentations and slide shows	簡報製作與播放
 gridcraft	Spreadsheets and data	試算表與資料處理
 cadcraft	Computer-aided design and drafting	電腦輔助設計與製圖
 soundcraft	Recording, editing and mixing audio	音訊錄製、編輯與混音
+figcraft	Interface design and prototyping	介面設計與原型製作
 column	App	App
 column	Installed	已安裝版本
 column	Latest	最新版本
