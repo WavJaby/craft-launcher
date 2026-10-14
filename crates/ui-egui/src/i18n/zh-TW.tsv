@@ -23,13 +23,13 @@
 	Not installed	未安裝
 	Search apps	搜尋 App
 	Sort	排序
-	Suite order	套件順序
+	Suite order	預設順序
 	Name	名稱
 	Inspired by	參考軟體
 	Status	狀態
 	Installed version	已安裝版本
 	Latest version	最新版本
-	Newest release	最新發行
+	Newest release	發行日期
 	Discord	Discord
 	GitHub	GitHub
 	Website	網站
@@ -44,13 +44,13 @@
 	Download	下載
 	Coming soon	即將推出
 	Checking…	檢查中…
-	Not available	無法使用
+	Not available	無適用版本
 	Offline	離線
 	Downloading {done} of {total}	下載中 {done} / {total}
 	Downloading…	下載中…
 	Reconnecting…	重新連線中…
 	Verifying…	驗證中…
-	Installing, then restarting…	安裝完成後將重新啟動…
+	Installing, then restarting…	正在安裝，完成後將重新啟動…
 	Installing…	安裝中…
 	Removing…	移除中…
 	Pause download	暫停下載
@@ -65,11 +65,11 @@
 	Uninstall…	移除…
 	All releases	所有版本
 	ArtCraft Launcher {version} is available.	ArtCraft Launcher {version} 已推出。
-	Dismiss	略過
+	Dismiss	關閉提示
 	Update and restart	更新並重新啟動
 	A new version is available. Would you like to relaunch with the updated version?	已有新版本。要更新並重新啟動嗎？
 	Later	稍後
-	What's new	最新消息
+	What's new	更新內容
 	No notes were published with this release.	此版本未提供更新說明。
 	Released {date}	發行日期：{date}
 	Open on GitHub	在 GitHub 上開啟
@@ -78,7 +78,7 @@
 	Only when I ask	只在手動檢查時
 	Automatically download and install updates	自動下載並安裝更新
 	Notify me when an installed app has an update	已安裝 App 有更新時通知我
-	Include pre-releases (betas and release candidates)	包含預先發行版本（測試版與候選版）
+	Include pre-releases (betas and release candidates)	包含尚未正式發行的版本（測試版與候選發行版）
 	Installing on Linux	在 Linux 上安裝
 	Install new apps as	新 App 的安裝格式
 	System package (recommended)	系統套件（建議）
@@ -88,7 +88,7 @@
 	Show the window on the current desktop	在目前桌面顯示視窗
 	Start ArtCraft Launcher when I log in	登入時啟動 ArtCraft Launcher
 	Community	社群
-	Questions, ideas and news from the ArtCraft team	與 ArtCraft 團隊交流問題、想法和動態
+	Questions, ideas and news from the ArtCraft team	問題討論、想法交流與 ArtCraft 團隊的最新消息
 	Appearance	外觀
 	Quit ArtCraft Launcher	結束 ArtCraft Launcher
 	Done	完成
@@ -134,7 +134,7 @@
 	Uninstall cancelled	已取消移除
 	Retry install	重試安裝
 	Retry update to {version}	重試更新至 {version}
-	The download is still here. It's checked again, then installed.	下載的檔案仍保留在這裡。將重新檢查後再安裝。
+	The download is still here. It's checked again, then installed.	下載的檔案已保留，會先重新檢查，再進行安裝。
 	Waiting for another app…	正在等待其他 App…
 	Waiting for other installs…	正在等待其他安裝作業…
 	Installer (.msi)	安裝程式 (.msi)
@@ -155,7 +155,7 @@
 	Couldn't open {name}: {e}	無法開啟 {name}：{e}
 	Download cancelled	已取消下載
 	Available to install	可安裝
-	Available	可使用
+	Available	可下載
 	Installed · up to date	已安裝 · 已是最新版本
 	Update available	有更新可用
 	Installed	已安裝
@@ -179,8 +179,8 @@
 	Language	語言
 	Ascending	遞增
 	Descending	遞減
-	Click to reverse the order	按一下以反轉排序
-	Click to sort by this column	按一下以此欄排序
+	Click to reverse the order	按一下切換排序方向
+	Click to sort by this column	按一下依此欄位排序
 	Like {name}	類似 {name}
 	{done} of {total}	{done} / {total}
 	Downloading	下載中
@@ -224,7 +224,7 @@
 	Previous picture (←)	上一張圖片 (←)
 	Next picture (→)	下一張圖片 (→)
 	Loading pictures…	正在載入圖片…
-	Pictures couldn't be loaded. Reopen this page to try again.	無法載入圖片。請重新開啟此頁再試一次。
+	Pictures couldn't be loaded. Reopen this page to try again.	圖片載入失敗。請重新開啟這個頁面再試一次。
 	{name} details	{name} 詳細資訊
 	Show ArtCraft Launcher	顯示 ArtCraft Launcher
 	Check for Updates	檢查更新
@@ -297,8 +297,8 @@ month	Dec	12月
 @id	app.releases	所有版本
 @id	launcher.update	更新並重新啟動
 @id	launcher.download	下載
-@id	launcher.notes	最新消息
-@id	launcher.dismiss	略過
+@id	launcher.notes	更新內容
+@id	launcher.dismiss	關閉提示
 @id	settings.open	設定
 @id	settings.quit	結束 ArtCraft Launcher
 @id	view.grid	卡片
@@ -307,20 +307,20 @@ month	Dec	12月
 @id	filter.installed	已安裝
 @id	filter.updates	更新
 @id	filter.notinstalled	未安裝
-@id	sort.suite	套件順序
+@id	sort.suite	預設順序
 @id	sort.name	名稱
 @id	sort.inspired	參考軟體
 @id	sort.status	狀態
 @id	sort.installed	已安裝版本
 @id	sort.latest	最新版本
-@id	sort.released	最新發行
+@id	sort.released	發行日期
 @id	help.discord	Discord
 @id	help.github	GitHub
 @id	help.website	網站
 @id	update.check	檢查更新
 @id	update.check_auto	自動檢查更新
 @id	update.notify	已安裝 App 有更新時通知我
-@id	update.prereleases	包含預先發行版本（測試版與候選版）
+@id	update.prereleases	包含尚未正式發行的版本（測試版與候選發行版）
 @id	linux.preferred_kind	新 App 的安裝格式
 @id	tray.close_to_tray	關閉視窗後繼續在選單列或系統匣執行
 @id	tray.show_on_current_desktop	在目前桌面顯示視窗
